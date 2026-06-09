@@ -426,9 +426,14 @@ section { padding: 5rem 2rem; max-width: 1000px; margin: 0 auto; }
 .hero-lottie { flex-shrink: 0; }
 
 @media (max-width: 768px) {
-  .hero-inner { flex-direction: column; text-align: center; }
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 6rem;
+  }
   .hero-btns { justify-content: center; }
-  .hero-lottie { width: 220px; height: 220px; }
+  .hero-lottie { width: 200px; height: 200px; }
+  .hero-lottie > div { width: 200px !important; height: 200px !important; }
 }
 
 .hero-inner {
