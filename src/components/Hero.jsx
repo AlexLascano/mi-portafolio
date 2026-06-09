@@ -84,7 +84,7 @@ export default function Hero() {
             autoplay
             loop
             src="https://assets2.lottiefiles.com/packages/lf20_w51pcehl.json"
-            style={{ width: '340px', height: '340px' }}
+            style={{ width: '300px', height: '300px' }}
           />
         </motion.div>
       </div>
