@@ -270,6 +270,14 @@ section { padding: 5rem 2rem; max-width: 1000px; margin: 0 auto; }
   .nav-links { display: none; }
   .about-grid { grid-template-columns: 1fr; }
   section { padding: 4rem 1.5rem; }
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 6rem;
+  }
+  .hero-btns { justify-content: center; }
+  .hero-lottie { width: 200px; height: 200px; }
+  .hero-lottie > div { width: 200px !important; height: 200px !important; }
 }
 
 /* PROJECT CARDS NEW */
@@ -425,16 +433,6 @@ section { padding: 5rem 2rem; max-width: 1000px; margin: 0 auto; }
 
 .hero-lottie { flex-shrink: 0; }
 
-@media (max-width: 768px) {
-  .hero-inner {
-    flex-direction: column-reverse;
-    text-align: center;
-    padding-top: 6rem;
-  }
-  .hero-btns { justify-content: center; }
-  .hero-lottie { width: 200px; height: 200px; }
-  .hero-lottie > div { width: 200px !important; height: 200px !important; }
-}
 
 .hero-inner {
   position: relative;
