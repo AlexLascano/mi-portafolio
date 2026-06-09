@@ -274,10 +274,19 @@ section { padding: 5rem 2rem; max-width: 1000px; margin: 0 auto; }
     flex-direction: column-reverse;
     text-align: center;
     padding-top: 6rem;
+    align-items: center;
   }
   .hero-btns { justify-content: center; }
-  .hero-lottie { width: 200px; height: 200px; }
-  .hero-lottie > div { width: 200px !important; height: 200px !important; }
+  .hero-lottie {
+    width: 220px !important;
+    height: 220px !important;
+    display: block !important;
+  }
+  .hero-lottie > div {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .hero-desc { font-size: 0.95rem; }
 }
 
 /* PROJECT CARDS NEW */
@@ -448,4 +457,7 @@ section { padding: 5rem 2rem; max-width: 1000px; margin: 0 auto; }
 }
 .hero-content { flex: 1; }
 .hero-btns { justify-content: flex-start; }
-.hero-lottie { flex-shrink: 0; }
+.hero-lottie { 
+  flex-shrink: 0;
+  display: block;
+}
